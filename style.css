@@ -1,0 +1,228 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+@font-face {
+  font-family: 'TypoSlabserifLightRegular';
+  src: url('assets/TypoSlabserif-Light-webfont.eot');
+  src: url('assets/TypoSlabserif-Light-webfont.eot?#iefix') format('embedded-opentype'), url('assets/TypoSlabserif-Light-webfont.woff') format('woff'), url('assets/TypoSlabserif-Light-webfont.ttf') format('truetype'), url('assets/TypoSlabserif-Light-webfont.svg#TypoSlabserifLightRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  color: #555;
+  font: 13px/20px 'Droid Serif', Georgia, serif;
+  overflow-x: hidden;
+  background-color: #edebd7;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 20px 0;
+  font-family: 'TypoSlabserifLightRegular', 'Droid Serif', Georgia, serif;
+  font-weight: normal;
+  color: #5da08d;
+}
+
+.main h1 {
+  font-family: 'TypoSlabserifLightRegular', 'Droid Serif', Georgia, serif;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  background: #edebd7;
+  padding: 0 0 30px 0;
+  margin: 0 0 20px 0;
+}
+
+.main h2 {
+  margin: 0 0 20px 0;
+  font-size: 34px;
+  text-align: center;
+  font-family: 'TypoSlabserifLightRegular', 'Droid Serif', Georgia, serif;
+  font-weight: normal;
+  color: #5da08d;
+}
+
+h3 { font-size: 20px }
+
+h4 { font-size: 18px }
+
+h5 { font-size: 14px }
+
+h6 { font-size: 12px }
+
+a {
+  text-decoration: none;
+  color: #fa4e4e;
+  -webkit-transition: .2s ease-in;
+  -moz-transition: .2s ease-in;
+  -o-transition: .2s ease-in;
+  transition: .2s ease-in;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #555;
+  -webkit-transition: .2s ease-in;
+  -moz-transition: .2s ease-in;
+  -o-transition: .2s ease-in;
+  transition: .2s ease-in;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 10px 0;
+  margin: 0 auto;
+}
+
+table td {
+  width: 40%;
+}
+
+#header-wrapper {
+  background: #555 url(images/footer-bg.png);
+  width: 100%;
+  margin-bottom: 50px;
+  padding: 40px 0 35px 0;
+  position: relative;
+  box-shadow: inset rgba(0,0,0, 0.25) 0px 0px 15px;
+  -moz-box-shadow: inset rgba(0,0,0, 0.25) 0px 0px 15px;
+  -webkit-box-shadow: inset rgba(0,0,0, 0.25) 0px 0px 15px;
+}
+
+#header {
+  width: 615px;
+  margin: 0 auto;
+}
+
+.logo-text {
+  font-family: 'Vast Shadow', Helvetica, sans-serif;
+  color: #5ca594;
+  font-size: 42px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  line-height: normal;
+  text-align: center;
+}
+
+.logo-text a { color: #38b593 }
+
+.logo-text a:hover { color: #ddd }
+
+.nav {
+  text-align: center;
+  border-top: double 4px #606266;
+  padding: 15px 0 5px 0;
+  list-style: none;
+}
+
+.nav li {
+  display: inline;
+  padding: 0px 15px;
+}
+
+.nav a {
+  color: #fff;
+}
+
+.main {
+  width: 615px;
+  margin: 0 auto;
+}
+
+.main ul {
+  list-style-type: square;
+  margin-left: 15px;
+}
+
+.main p {
+  margin-bottom: 20px;
+}
+
+.left-container {
+  display: inline-block;
+  width: 49%;
+  margin-right: 15px;
+  vertical-align: top;
+}
+
+.right-container {
+  display: inline-block;
+  width: 45%;
+}
+
+.aligncenter { text-align: center }
+
+.footer {
+  background: #555 url(images/footer-bg.png);
+  width: 100%;
+  margin-top: 50px;
+  padding: 40px 0 35px 0;
+  position: relative;
+  box-shadow: inset rgba(0,0,0, 0.25) 0px 0px 15px;
+  -moz-box-shadow: inset rgba(0,0,0, 0.25) 0px 0px 15px;
+  -webkit-box-shadow: inset rgba(0,0,0, 0.25) 0px 0px 15px;
+}
+
+form {
+  padding: 20px !important;
+  background: #e8e8e8;
+  background: rgba(0, 0, 0, .03);
+}
+
+form p {
+  line-height: 30px;
+}
+
+form input {
+  padding: 15px;
+  box-shadow: rgba(0,0,0, 0.1) 0px 0px 4px;
+  -moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 4px;
+  -webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 4px;
+  border: none;
+  width: 95%;
+  font-family: 'Droid Serif', Georgia, serif;
+  font-size: 16px;
+  color: #60636B;
+}
+
+form textarea {
+  padding: 15px;
+  box-shadow: rgba(0,0,0, 0.1) 0px 0px 4px;
+  -moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 4px;
+  -webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 4px;
+  border: none;
+  width: 95%;
+  font-family: 'Droid Serif', Georgia, serif;
+  font-size: 16px;
+  color: #60636B;
+  height: 200px;
+}
+
+form .submit {
+    background: #60636B;
+    color: #fff;
+    width: 100%;
+    font-family: 'TypoSlabserifLightRegular';
+    font-size: 24px;
+    -webkit-transition: .2s ease-in;
+    -moz-transition: .2s ease-in;
+    -o-transition: .2s ease-in;
+    transition: .2s ease-in;
+}
+
+form .submit:hover {
+    text-decoration: none;
+    cursor: pointer;
+    color: #555;
+    box-shadow: rgba(0,0,0, 0.1) 0px 0px 4px;
+    -moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 4px;
+    -webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 4px;
+}

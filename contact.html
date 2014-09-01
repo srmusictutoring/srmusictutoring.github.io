@@ -6,4 +6,17 @@ layout: default
 
 <p>If you have any queries, or wish to arrange a lesson, please contact Sarah directly on 021 056 0933 or via the form below.</p>
 
-ADD FORM HERE
+<form action="http://getsimpleform.com/messages?form_api_token=17ee8eb2b8b98064a981a4600fe6648f" method="post">
+  <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+  <input type='hidden' name='redirect_to' value='http://srmusictutoring.co.nz/thank-you.html' />
+  <!-- all your input fields here.... -->
+  <p>Your name:</br>
+  <input type='text' name='name' /></p>
+  <p>Your email address:</br>
+  <input type='email' name='email' /></p>
+  <p>Your phone number:</br>
+  <input type='text' name='phone' /></p>
+  <p>Your message:</br>
+  <textarea name='message'></textarea></p>
+  <input class='submit' type='submit' value='Send message' />
+</form>
