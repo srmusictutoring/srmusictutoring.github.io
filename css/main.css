@@ -1,0 +1,103 @@
+/* Make footer sticky */
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+/* Make headings thinner and coloured */
+
+.header {
+    color: #ee6e73;
+    font-weight: 300;
+}
+
+/* Make tabs always take full width */
+
+.tabs .tab {
+    -webkit-box-flex: 1 !important;
+    -webkit-flex-grow: 1 !important;
+    -ms-flex-positive: 1 !important;
+    flex-grow: 1 !important;
+}
+
+.tabs {
+    display: -webkit-flex !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+}
+
+/* Make the title small enough on mobile */
+
+.brand-logo {
+  font-size: 2.4rem !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .brand-logo {
+    font-size: 2.0rem !important;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .brand-logo {
+    font-size: 1.6rem !important;
+  }
+}
+
+/* Make tabs small enough on mobile */
+
+@media only screen and (max-width: 420px) {
+  .tabs .tab a {
+    font-size:  11px !important;
+  }
+}
+
+/* Adjust space between title and tabs */
+
+@media only screen and (min-width: 601px) {
+  nav a.button-collapse {
+    height: 56px !important;
+  }
+}
+
+/* Make experience heading scale with screen size */
+@media only screen and (max-width: 600px) {
+  .header {
+    font-size: 2.0rem !important;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .header {
+    font-size: 1.6rem !important;
+  }
+}
+
+/* increase spacing at top of page*/
+main {
+  padding-top: 1.2rem;
+}
+
+/* valign home image */
+@media only screen and (min-width: 601px) {
+  #home-row {
+    display: flex;
+  }
+  #home-row div{
+    margin: auto;
+  }
+}
+
+/* main background color */
+body {
+  background-color: #fff3f0;
+}
+
+/* table striped color */
+table.striped>tbody>tr:nth-child(odd) {
+    background-color: #fff7f5;
+}

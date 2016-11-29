@@ -2,21 +2,47 @@
 layout: default
 ---
 
-<h1>Contact</h1>
+<h4 class="header center">Contact</h4>
 
-<p>If you have any queries, or wish to arrange a lesson, please contact Sarah directly on 021 056 0933 or via the form below.</p>
+<p class="flow-text">If you have any queries, or wish to arrange a lesson, please contact Sarah directly on 021 056 0933 or via the form below.</p>
 
-<form action="http://getsimpleform.com/messages?form_api_token=facea884c3bfd6fd614ed97cc31be1e1" method="post">
-  <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
-  <input type='hidden' name='redirect_to' value='http://srmusictutoring.co.nz/thank-you.html' />
-  <!-- all your input fields here.... -->
-  <p>Your name:</br>
-  <input type='text' name='name' /></p>
-  <p>Your email address:</br>
-  <input type='email' name='email' /></p>
-  <p>Your phone number:</br>
-  <input type='text' name='phone' /></p>
-  <p>Your message:</br>
-  <textarea name='message'></textarea></p>
-  <input class='submit' type='submit' value='Send message' />
-</form>
+<div class="row">
+  <form class="col s12" action="https://getsimpleform.com/messages?form_api_token=5ea8a3bfe65475f7a293d29c6172257d" method="post">
+    <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+    <input type='hidden' name='redirect_to' value='http://srmusictutoring.co.nz/thank-you.html' />
+    <!-- all your input fields here.... -->
+    <div class="row">
+      <div class="input-field col s12">
+        <input type='text' name='name' id='name'></input>
+        <label for='name'>Name</label>
+      </div>
+    </div>
+    <div class="row">
+      <div class="input-field col s12">
+        <input type='email' name='email' id='email'></input>
+        <label for='email'>Email</label>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="input-field col s12">
+        <input type='text' name='phone' id='phone'></input>
+        <label for='phone'>Phone number</label>
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="input-field col s12">
+        <textarea name='message' id='message' class='materialize-textarea'></textarea>
+        <label for='message'>Your message</label>
+      </div>
+    </div>
+
+    <div class="center">
+      <button class='btn waves-effect waves-light' type='submit' name='action'>
+        Submit <i class="material-icons right">send</i>
+      </button>
+    </div>
+  </form>
+</div>
