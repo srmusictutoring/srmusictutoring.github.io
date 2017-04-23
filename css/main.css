@@ -13,7 +13,7 @@ main {
 /* Make headings thinner and coloured */
 
 .header {
-    color: #ee6e73;
+    color: #437E79;
     font-weight: 300;
 }
 
@@ -94,7 +94,7 @@ main {
 
 /* main background color */
 body {
-  background-color: #fff3f0;
+  background-color: #fff8f5;
 }
 
 /* table striped color */
@@ -102,14 +102,26 @@ table.striped>tbody>tr:nth-child(odd) {
     background-color: #fff7f5;
 }
 
+/* Border colour for testimonials */
 blockquote {
-  border-left: 5px solid #D56267;
+  border-left: 5px solid #619c9b;
 }
 
+/* Change SUBMIT button colour */
 .btn {
-  background-color: #D56267;
+  background-color: #619c9b;
 }
 
+/* .btn:focus, .btn-large:focus,
+.btn-floating:focus {
+  background-color: #D56267;
+} */
+
+.btn:hover, .btn-large:hover {
+  background-color: #51807e;
+}
+
+/* Change line and text-heading colour for contact form */
 input:not([type]):focus:not([readonly]),
 input[type=text]:focus:not([readonly]),
 input[type=password]:focus:not([readonly]),
@@ -123,8 +135,8 @@ input[type=tel]:focus:not([readonly]),
 input[type=number]:focus:not([readonly]),
 input[type=search]:focus:not([readonly]),
 textarea.materialize-textarea:focus:not([readonly]) {
-  border-bottom: 1px solid #D56267;
-  box-shadow: 0 1px 0 0 #D56267;
+  border-bottom: 1px solid #619c9b;
+  box-shadow: 0 1px 0 0 #619c9b;
 }
 
 input:not([type]):focus:not([readonly]) + label,
@@ -140,5 +152,5 @@ input[type=tel]:focus:not([readonly]) + label,
 input[type=number]:focus:not([readonly]) + label,
 input[type=search]:focus:not([readonly]) + label,
 textarea.materialize-textarea:focus:not([readonly]) + label {
-  color: #D56267;
+  color: #619c9b;
 }
